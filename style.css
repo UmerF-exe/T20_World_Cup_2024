@@ -104,3 +104,15 @@
     width: 50%;
     height: auto;
 }
+
+@media only screen and(max-width: 800px){
+    .container{
+        width: 100%;
+    }
+    .container1{
+        flex-direction: column;
+    }
+    .container3{
+        flex-direction: column;
+    }
+}
