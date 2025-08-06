@@ -58,6 +58,20 @@ row1.innerHTML += `<div class="container3">
                     <div class="div2"><p class="left_para"><img src="images/south_africa.png" width="30px" height="30px"><span style="margin-right: 135px;">${superEight10.team2}</span></p><p class="right_para">${superEight10.team2Score}</p></div>
                     <div class="div3" style="font-weight: bold">${superEight10.result}</div>
                     </div>
+                   </div>
+                   <div class="container3">
+                    <div class="left">
+                    <div class="div1"><p class="left_para">${superEight11.match}: T20 ${superEight11.matchNo} of 55</p><p class="right_para">${superEight11.date}</p></div>
+                    <div class="div2"><p class="left_para"><img src="images/india.png" width="30px" height="30px"><span style="margin-right: 200px;">${superEight11.team1}</span></p><p class="right_para">${superEight11.team1Score}</p></div>
+                    <div class="div2"><p class="left_para"><img src="images/australia.png" width="30px" height="30px"><span style="margin-right: 175px;">${superEight11.team2}</span></p><p class="right_para">${superEight11.team2Score}</p></div>
+                    <div class="div3" style="font-weight: bold">${superEight11.result}</div>
+                    </div>
+                    <div class="right">
+                    <div class="div1"><p class="left_para">${superEight10.match}: T20 ${superEight10.matchNo} of 55</p><p class="right_para">${superEight10.date}</p></div>
+                    <div class="div2"><p class="left_para"><img src="images/west_indies.png" width="30px" height="30px"><span style="margin-right: 155px;">${superEight10.team1}</span></p><p class="right_para">${superEight10.team1Score}</p></div>
+                    <div class="div2"><p class="left_para"><img src="images/south_africa.png" width="30px" height="30px"><span style="margin-right: 135px;">${superEight10.team2}</span></p><p class="right_para">${superEight10.team2Score}</p></div>
+                    <div class="div3" style="font-weight: bold">${superEight10.result}</div>
+                    </div>
                    </div>`;
 // row1.innerHTML += `<div class="left"><div><p>${final.match} : T20 ${final.no} of 55</p><p><img src="images/india.png"> India</p><p><img src="images/south_africa.png"> South Africa</p><p>${final.result}</p></div><div><p>${final.date}</p><p>${final.team1Score}</p><p>${final.team2Score}</p></div></div>`
 // row1.innerHTML += `<div class="right"><div><p>${final.match} : T20 ${final.no} of 55</p><p><img src="images/india.png"> India</p><p><img src="images/south_africa.png"> South Africa</p><p>${final.result}</p></div><div><p>${final.date}</p><p>${final.team1Score}</p><p>${final.team2Score}</p></div></div>`
